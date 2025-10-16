@@ -1,0 +1,166 @@
+
+body{
+  background: #fff ;
+}
+.dark-mode{
+  background: #181818 !important;
+}
+/** privacy **/
+
+.privacy{
+  margin: 0px 0px 0px 0px;
+  padding: 150px 0px 100px 0px;
+  background: #fff;
+  width: 100%;
+  color: #000;
+  overflow: hidden;
+}
+.dark-mode .privacy{
+  background: #000;
+  color: #fff;
+}
+.privacy-row{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+} 
+.privacy-row h1{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-weight: 700;
+  font-size: 7rem;
+  text-wrap: nowrap;
+} 
+
+
+/** privacy-cont **/
+
+.privacy-cont{
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 120px 0px;
+  background: #e6e6e6;
+  color: #000;
+}
+.dark-mode .privacy-cont{
+  background: #181818;
+  color: #fff;
+}
+.privacy-cont-row{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.privacy-cont-row h2{
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0px 0px 0px;
+  font-weight: 500;
+  font-size: 33px;
+}
+.spacer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 60px;
+}
+.privacy-cont-row p{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+}
+.privacy-cont-row h4{
+  margin: 20px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.privacy-cont-row ul{
+  margin: 30px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.privacy-cont-row ul li {
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 16px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  position: relative;
+}
+.privacy-cont-row ul li::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 100%;
+}
+.privacy-cont-row ul li.last{
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+
+/** responsive **/
+
+@media (max-width:1400px){
+
+.privacy-row h1 {
+  font-size: 8rem;
+}
+
+
+
+} 
+
+
+@media (max-width:1199px){
+
+.privacy{
+  padding: 150px 0px 80px 0px;
+}  
+.privacy-row h1 {
+  font-size: 5rem;
+}
+
+
+
+} 
+
+@media (max-width:991px){
+
+.privacy{
+  padding: 140px 0px 80px 0px;
+}  
+.privacy-row h1 {
+  font-size: 4rem;
+}
+.privacy-cont {
+  padding: 40px 0px 60px 0px;
+} 
+.spacer {
+  height: 20px;
+}
+
+
+
+} 
+
+@media (max-width:767px){
+
+.privacy{
+  padding: 120px 0px 80px 0px;
+}  
+.privacy-row h1 {
+  font-size: 3rem;
+}
+.privacy-cont {
+  padding: 40px 0px 60px 0px;
+} 
+.spacer {
+  height: 20px;
+}
+
+
+
+} 

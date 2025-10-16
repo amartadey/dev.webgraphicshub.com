@@ -1,0 +1,42 @@
+https://ca.pinterest.com/search/pins/?q=trading%20website&rs=typed
+
+
+
+
+
+
+    <!-- <div class="touch" style="display: none;">
+        <img src="images/graph-bg.png" class="img-fluid touch-bg" alt="">
+        <div class="container">
+            <div class="touch-flex">
+                <div class="touch-text">
+                    <h1>Get In Touch<br>
+                        With Us</h1>
+                    
+                </div>
+                <div class="touch-row" id="contact">
+                    <div class="touch-para">
+                        <p>Are you looking for a US regulated Forex Broker? We can help you!
+                            Contact us today to learn more.</p>
+                    </div>
+                    <form class="form" id="open-form">
+                        <div class="form1">
+                            <input type="text" class="input" placeholder="First Name *" name="first" required="true">
+                            <input type="text" class="input" placeholder="Last Name *" name="last" required="true">
+                        </div>
+                        <div class="form1">
+                            <input type="number" class="input" placeholder="Phone Number" name="phone" value="">
+                            <input type="email" class="input" placeholder="Email *" name="email" required="true">
+                        </div>
+                        <div class="form2">
+                            <p>Please write your message *</p>
+                            <textarea class="textarea" name="info" placeholder="Type information here..."
+                                required="true"></textarea>
+                        </div>
+                        <input class="sub-btn" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- touch -->

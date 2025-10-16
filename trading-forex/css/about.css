@@ -1,0 +1,1250 @@
+/** banner **/
+.banner {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.dark-mode .banner {
+    background: #181818;
+    color: #fff;
+}
+
+.banner-text {
+    margin: 0px 0px 0px 0px;
+    padding: 180px 0px 80px 0px;
+    text-align: center;
+}
+
+.banner-text h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.banner-text p {
+    margin: 30px 120px 0px 120px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#hero {
+    position: relative;
+    z-index: 9;
+}
+
+img.hero-img {
+    margin: 0px auto;
+    width: 40%;
+    display: block;
+}
+
+/** glad **/
+
+.glad {
+    margin: 0px 0px 0px 0px;
+    padding: 70px 0px 70px 0px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.glad .graph {
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.graph {
+    filter: invert(1);
+}
+.dark-mode .graph {
+    filter: invert(0);
+}
+
+.dark-mode .glad {
+    color: #fff;
+    background: #0f0f0f;
+}
+
+.dark-mode .glad .main h4 {
+    color: #fff;
+}
+
+.dark-mode .glad .main p {
+    color: #fff;
+}
+
+.glad h5 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.glad h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 55px;
+    text-align: center;
+}
+
+.glad .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px 0 40px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.glad .main .item {
+    width: 32%;
+    background-color: #f2f2f2;
+    padding: 45px;
+    margin-bottom: 25px;
+    transition: all.2s ease-in-out;
+    cursor: pointer;
+}
+
+.dark-mode .glad .main .item {
+    background-color: #262626;
+    cursor: pointer;
+}
+.glad .main .item:hover {
+    transform: translateY(-4px);
+}
+.glad .main .item:hover img{
+    transform: translateY(-3px);
+} 
+.dark-mode .glad .main .item:hover {
+    transform: translateY(-4px);
+}
+
+
+.glad .main .item h4 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 35px 0 20px 0;
+}
+
+.glad .main .item p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.glad p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.glad p span {
+    display: block;
+    margin-top: 15px;
+}
+
+.glad h6 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.item img {
+    filter: invert(1);
+}
+
+
+.lottie-sec{
+    margin: 0;
+    padding: 0px;
+    width: 95px;
+    height: 95px;
+    background: #757575;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+}
+
+
+
+.glad .lottie-icn{
+    display: none;
+}
+.glad .item:hover .lottie-icn{
+    display: block;
+}
+.glad .item:hover img {
+    display: none;
+}
+
+.lottie-sec img.img1{
+    filter: invert(0);
+}
+
+
+/*
+.main .item img.img1{
+    filter: invert(0);
+}
+.dark-mode .main .item img.img1{
+    filter: invert(1);
+}
+
+.dark-mode .main .item img {
+    filter: invert(0);
+}
+*/
+
+/** team **/
+
+.team {
+    margin: 0px 0px 0px 0px;
+    padding: 70px 0px 40px 0px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.team .user {
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.user {
+    filter: invert(1);
+}
+.dark-mode .user {
+    filter: invert(0);
+}
+
+.dark-mode .team {
+    color: #fff;
+    background: #181818;
+}
+
+.dark-mode .team .tk {
+    filter: invert(1);
+}
+
+.team h5 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.team h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.team .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.team .main .lt {
+    width: 40%;
+    text-align: right;
+    position: relative;
+}
+
+.team .main .lt .tk {
+    width: auto;
+    position: absolute;
+    left: 12%;
+    top: 10%;
+}
+
+.team .main .lt .men {
+    position: relative;
+    z-index: 99;
+    margin: 0px auto;
+    display: block;
+}
+
+.team .main .rt {
+    width: 50%;
+    position: relative;
+    z-index: 99;
+}
+
+.team .main .rt h3 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.team .main .rt h6 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+
+.team .main .rt p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/** sec **/
+
+.sec {
+    margin: 0px 0px 0px 0px;
+    padding: 70px 0px 230px 0px;
+    background: #f2f2f2;
+    background-size: auto;
+    overflow: hidden;
+    width: 100%;
+    color: #000;
+    position: relative;
+}
+
+.dark-mode .sec {
+    background: #262626;
+    color: #fff;
+}
+
+.sec .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec .main .item {
+    width: 33%;
+}
+
+.sec .main .item.first {
+    padding-right: 40px;
+}
+
+.sec .main .item.mid {
+    padding: 0 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to bottom,
+            rgba(38, 38, 38, 1),
+            rgba(60, 60, 60, 1),
+            rgba(38, 38, 38, 1)) 1 100%;
+}
+
+.sec .main .item.last {
+    padding-left: 40px;
+}
+
+.sec h4 {
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.sec p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sec p span {
+    display: block;
+    margin: 10px 0;
+}
+
+.sec p span b {
+    font-weight: 700;
+}
+
+.sec ul {
+    margin-top: 25px;
+}
+
+.sec li {
+    display: flex;
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.sec i.bx {
+    margin: 10px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 12px;
+}
+
+/** join **/
+
+
+.join {
+    margin: -150px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+}
+
+.join .block {
+    width: 80%;
+    background: #ffffff;
+    box-shadow: 0px 5px 5px 0px rgba(83, 83, 83, 0.05);
+    color: #000;
+    padding: 50px 400px 50px 50px;
+    margin-bottom: 10px;
+}
+
+.dark-mode .block {
+    color: #fff;
+    background: #0f0f0f;
+}
+
+
+.join .block h3 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.join .block p {
+    margin: 30px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.join .block h6 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+/** miriam **/
+
+.miriam {
+    margin: -230px 0px 0px 0px;
+    padding: 210px 0px 60px 0px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.miriam .user {
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.user {
+    filter: invert(1);
+}
+.dark-mode .user {
+    filter: invert(0);
+}
+
+.dark-mode .miriam {
+    color: #fff;
+    background: #181818;
+}
+
+.dark-mode .miriam .tk {
+    filter: invert(1);
+}
+
+.miriam .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.miriam .main .lt {
+    width: 40%;
+    text-align: left;
+    position: relative;
+    order: 2;
+}
+
+.miriam .main .lt .tk {
+    width: auto;
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+
+.miriam .main .lt .men {
+  position: relative;
+  z-index: 99;
+  margin: 0px auto;
+  display: block;
+}
+.team-new h4{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.team h4{
+    margin: 30px 0px 0px 0px;
+} 
+.miriam .main .rt {
+    width: 50%;
+    position: relative;
+    z-index: 99;
+    order: 1;
+}
+
+.miriam .main .rt h3 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.miriam .main .rt h6 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+
+.miriam .main .rt p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.miriam .main .rt p span {
+    display: block;
+    margin-top: 15px;
+}
+
+
+/** when **/
+
+.when {
+    margin: 0px 0px 0px 0px;
+    padding: 70px 0px 70px 0px;
+    background: #f2f2f2;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.dark-mode .when {
+    color: #fff;
+    background: #262626;
+}
+
+.when h4 {
+    margin: 0px 0px 25px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.when p {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.when p span {
+    display: block;
+    margin: 10px 0;
+}
+
+.when ul {
+    margin: 30px 0;
+}
+
+.when li {
+    display: flex;
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.when i.bx {
+    margin: 10px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 12px;
+}
+
+/** regulatory **/
+
+.regulatory {
+    margin: 0px 0px 0px 0px;
+    padding: 70px 0px 100px 0px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.dark-mode .regulatory {
+    color: #fff;
+    background: #181818;
+}
+
+.regulatory .text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.regulatory .text img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.dark-mode .text img {
+    filter: invert(1);
+}
+
+.regulatory h2 {
+    margin: -50px 0px 25px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.regulatory p {
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 76%;
+}
+
+/** responsive **/
+.mo-menu {
+    display: none;
+}
+
+/* 1920px start */
+
+@media (max-width: 1920px) and (min-device-width: 1400px) {}
+
+/* 1400px end */
+
+/* 1399px start */
+
+@media (max-width: 1399px) and (min-device-width: 1200px) {
+    .banner-text h2 {
+        font-size: 60px;
+    }
+
+    .glad h5 {
+        font-size: 30px;
+    }
+
+    .glad h2 {
+        font-size: 50px;
+    }
+
+    .glad .main .item {
+        padding: 35px;
+    }
+
+    .glad .main .item h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .team h5 {
+        font-size: 30px;
+    }
+
+    .team h2 {
+        font-size: 50px;
+    }
+
+    .team .main .lt {
+        width: 46%;
+    }
+
+    .sec h4 {
+        font-size: 25px;
+        line-height: 30px
+    }
+
+    .join .block {
+        width: 90%;
+        padding: 50px 150px 50px 50px;
+    }
+
+    .miriam {
+        margin-top: -280px;
+    }
+
+    .miriam .main .lt {
+        width: 46%;
+    }
+
+    .regulatory h2 {
+        font-size: 65px;
+        margin: -40px 0px 25px 0px;
+    }
+
+}
+
+/* 1200px end */
+
+/* 1199px start */
+
+@media (max-width: 1199px) and (min-device-width: 992px) {
+    .banner-text h2 {
+        font-size: 50px;
+    }
+
+    .banner-text p {
+        margin: 30px 50px 0 50px;
+    }
+
+    .glad h5 {
+        font-size: 30px;
+    }
+
+    .glad h2 {
+        font-size: 50px;
+    }
+
+    .glad .main .item {
+        padding: 30px;
+    }
+
+    .glad .main .item h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .team .user {
+        width: 50%;
+    }
+
+    .team h5 {
+        font-size: 30px;
+    }
+
+    .team h2 {
+        font-size: 50px;
+    }
+
+    .team .main .lt {
+        width: 46%;
+    }
+
+    .team .main .lt .tk {
+        width: 40%;
+    }
+
+    .team .main .rt h3 {
+        font-size: 45px;
+    }
+
+    .sec h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .join .block {
+        width: 95%;
+        padding: 30px 150px 30px 30px;
+    }
+
+    .join .block h3 {
+        font-size: 40px;
+    }
+
+    .miriam {
+        margin-top: -310px;
+    }
+
+    .miriam .user {
+        width: 40%;
+    }
+
+    .miriam .main .lt {
+        width: 46%;
+    }
+
+    .miriam .main .rt h3 {
+        font-size: 45px;
+    }
+
+    .miriam .main .lt .tk {
+        width: 50%;
+    }
+
+    .regulatory h2 {
+        font-size: 55px;
+        margin-top: -35px;
+    }
+
+    .regulatory p {
+        width: 100%;
+    }
+
+}
+
+/* 992px end */
+
+/* 991px start */
+
+@media (max-width: 991px) and (min-device-width: 768px) {
+
+    h2 {
+        font-size: 45px !important;
+    }
+
+    h3 {
+        font-size: 40px !important;
+    }
+
+    h5 {
+        font-size: 25px !important;
+    }
+
+    .banner-text p {
+        margin: 30px 0;
+    }
+
+    .glad {
+        padding: 70px 0;
+    }
+
+    .glad .main .item {
+        width: 100%;
+        padding: 35px;
+    }
+
+    .glad .main .item h4 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .team {
+        padding: 70px 0;
+    }
+
+    .team .user {
+        width: 50%;
+    }
+
+    .team .main {
+        display: block;
+    }
+
+    .team .main .lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .team .main .lt .tk {
+        width: 35%;
+    }
+
+    .team .main .rt {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .sec {
+        padding: 70px 0 20px 0;
+    }
+
+    .sec .main .item {
+        width: 100%;
+        border: none !important;
+        padding: 0 !important;
+        margin-bottom: 50px;
+    }
+
+    .sec h4 {
+        font-size: 26px;
+    }
+
+    .sec h4 br {
+        display: none;
+    }
+
+    .join {
+        margin: 0;
+    }
+
+    .join .block {
+        width: 100%;
+        padding: 70px 30px;
+    }
+
+    .miriam {
+        margin-top: 0;
+        padding: 70px 0;
+    }
+
+    .miriam .user {
+        width: 40%;
+    }
+
+    .miriam .main {
+        display: block;
+        margin-top: 0;
+    }
+
+    .miriam .main .lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .miriam .main .lt .tk {
+        width: 35%;
+        right: 8%;
+    }
+
+    .miriam .main .rt {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .regulatory {
+        padding: 70px 0;
+    }
+
+    .regulatory .text {
+        width: 100%;
+    }
+
+    .regulatory h2 {
+        margin-top: -35px;
+    }
+
+    .regulatory p {
+        width: 100%;
+    }
+
+}
+
+/* 768px end */
+
+/* 767px start */
+
+@media (max-width: 767px) and (min-device-width: 576px) {
+
+    h2 {
+        font-size: 50px !important;
+    }
+
+    h3 {
+        font-size: 40px !important;
+    }
+
+    h5 {
+        font-size: 30px !important;
+    }
+
+    .banner-text p {
+        margin: 30px 0;
+    }
+
+    .glad {
+        padding: 70px 0;
+    }
+
+    .glad .main .item {
+        width: 100%;
+        padding: 35px;
+    }
+
+    .glad .main .item h4 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .team {
+        padding: 70px 0;
+    }
+
+    .team .user {
+        width: 50%;
+    }
+
+    .team .main {
+        display: block;
+    }
+
+    .team .main .lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .team .main .lt .tk {
+        width: 35%;
+    }
+
+    .team .main .rt {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .sec {
+        padding: 70px 0 20px 0;
+    }
+
+    .sec .main .item {
+        width: 100%;
+        border: none !important;
+        padding: 0 !important;
+        margin-bottom: 50px;
+    }
+
+    .sec h4 {
+        font-size: 26px;
+    }
+
+    .sec h4 br {
+        display: none;
+    }
+
+    .join {
+        margin: 0;
+    }
+
+    .join .block {
+        width: 100%;
+        padding: 70px 30px;
+    }
+
+    .miriam {
+        margin-top: 0;
+        padding: 70px 0;
+    }
+
+    .miriam .user {
+        width: 40%;
+    }
+
+    .miriam .main {
+        display: block;
+        margin-top: 0;
+    }
+
+    .miriam .main .lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .miriam .main .lt .tk {
+        width: 35%;
+        right: 8%;
+    }
+
+    .miriam .main .rt {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .regulatory {
+        padding: 70px 0;
+    }
+
+    .regulatory .text {
+        width: 100%;
+    }
+
+    .regulatory h2 {
+        margin-top: -35px;
+    }
+
+    .regulatory p {
+        width: 100%;
+    }
+}
+
+/* 576px end */
+
+/* 575px start */
+
+@media (max-width: 575px) and (min-device-width: 375px) {
+
+    h2 {
+        font-size: 35px !important;
+        line-height: 1.2 !important;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+
+    h5 {
+        font-size: 25px !important;
+    }
+
+    .banner-text p {
+        margin: 30px 0;
+    }
+
+    .glad {
+        padding: 50px 0;
+    }
+
+    .glad .main .item {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .glad .main .item h4 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .team {
+        padding: 50px 0;
+    }
+
+    .team .user {
+        width: 50%;
+    }
+
+    .team .main {
+        display: block;
+    }
+
+    .team .main .lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .team .main .lt .men {
+        width: 100%;
+    }
+
+    .team .main .lt .tk {
+        width: 40%;
+        left: 0;
+    }
+
+    .team .main .rt {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .sec {
+        padding: 50px 0 20px 0;
+    }
+
+    .sec .main .item {
+        width: 100%;
+        border: none !important;
+        padding: 0 !important;
+        margin-bottom: 50px;
+    }
+
+    .sec h4 {
+        font-size: 25px;
+    }
+
+    .sec h4 br {
+        display: none;
+    }
+
+    .join {
+        margin: 0;
+    }
+
+    .join .block {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .miriam {
+        margin-top: 0;
+        padding: 50px 0;
+    }
+
+    .miriam .user {
+        width: 40%;
+    }
+
+    .miriam .main {
+        display: block;
+        margin-top: 0;
+    }
+
+    .miriam .main .lt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .miriam .main .lt .men {
+        width: 100%;
+    }
+
+    .miriam .main .lt .tk {
+        width: 37%;
+        right: 0;
+    }
+
+    .miriam .main .rt {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .when h4 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .regulatory {
+        padding: 50px 0;
+    }
+
+    .regulatory .text {
+        width: 100%;
+    }
+
+    .regulatory h2 {
+        margin-top: -25px;
+    }
+
+    .regulatory p {
+        width: 100%;
+    }
+}
+
+/* 375px end */

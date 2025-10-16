@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MQM8N7W8");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Unlock exclusive cash back rebates on your forex trades with our trusted US-based Introducing Broker. Maximize your profits with top-tier broker partnerships, personalized service, and industry-leading rewards. Start earning rebates today and enhance your trading experience!"
+    />
+    <title>TradingForexUSA.com</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/education.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-mode">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MQM8N7W8"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="header">
+      <div class="container">
+        <div class="header-row">
+          <a href="index.html" class="logo"
+            ><img src="images/logo.png" class="img-fluid lgo" alt=""
+          /></a>
+          <div class="header-menu">
+            <ul class="one">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li>
+                <button
+                  class="app-button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                  data-thankyou="thankyou_contact.html"
+                  data-title="Contact Us"
+                  data-content="TradingForexUSA.com"
+                  data-btnlabel="Contact Us"
+                  data-leadsource="Contact Form"
+                >
+                  Contact Us
+                </button>
+              </li>
+            </ul>
+            <ul class="last">
+              <li>
+                <a href="#" class="get" style="display: none">Get started</a>
+              </li>
+              <li>
+                <a href="broker.html" class="start">Start your journey</a>
+              </li>
+              <li class="last">
+                <button class="button" onclick="myFunction()">
+                  <i class="bx bx-sun sun"></i> <i class="bx bxs-moon moon"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+
+    <div class="header mob-header">
+      <div class="container">
+        <div class="header-row">
+          <a href="index.html" class="logo"
+            ><img src="images/logo.png" class="img-fluid lgo" alt=""
+          /></a>
+          <div
+            class="navigation-menu__overlay"
+            onclick="toggleMenuClicked()"
+          ></div>
+
+          <div class="header-menu">
+            <button
+              type="button"
+              class="hamburger-menu"
+              onclick="toggleMenuClicked()"
+            >
+              <span class="material-icons" id="open-icon">menu</span>
+              <span class="material-icons" id="close-icon">close</span>
+            </button>
+            <section class="navigation-menu__labels">
+              <ul class="one">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li>
+                  <button
+                    class="app-button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                    data-thankyou="thankyou_contact.html"
+                    data-title="Contact Us"
+                    data-content="TradingForexUSA.com"
+                    data-btnlabel="Contact Us"
+                    data-leadsource="Contact Form"
+                  >
+                    Contact Us
+                  </button>
+                </li>
+                <li>
+                  <a href="broker.html" class="start">Start your journey</a>
+                </li>
+              </ul>
+            </section>
+            <ul class="last">
+              <li class="last">
+                <button class="button" onclick="myFunction()">
+                  <i class="bx bx-sun sun"></i> <i class="bx bxs-moon moon"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mob-header -->
+
+    <div class="education">
+      <div class="container">
+        <div class="education-row">
+          <!--<ul>
+                <li><a href="#">Sign Up for Ebook</a></li>
+                <li class="last"><a href="#">Sign Up For Our Webinar</a></li>
+            </ul>-->
+          <div class="education-video">
+            <!--<video autoplay muted>
+                <source src="https://media.publit.io/file/h_480/TradingForexUSA/Forex-Ebook.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video> -->
+
+            <video
+              oncontextmenu="return false;"
+              controlslist="nodownload"
+              poster="https://media.publit.io/file/w_1280/TradingForexUSA/Forex-Ebook.jpg"
+              autoplay
+              muted
+            >
+              <source
+                src="https://media.publit.io/file/h_480/TradingForexUSA/Forex-Ebook.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.amazon.com/dp/B0F2GRC81X"
+              class="pre"
+              >Order Now</a
+            >
+            <h6>*existing clients get it free</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- education -->
+
+    <div class="master">
+      <div class="container">
+        <div class="master-row">
+          <div class="master-text">
+            <h3>Join Our <span>FREE</span> Master Class On Trading Forex</h3>
+            <div>
+              <button
+                type="button"
+                class="wj-embed-button"
+                data-webinarHash="77vn5a7"
+                style=""
+              >
+                Register
+              </button>
+              <script src="https://event.webinarjam.com/register/77vn5a7/embed-button?formTemplate=2&formColor=3"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- master -->
+
+    <div class="faq">
+      <div class="container">
+        <h3>Frequently Asked Questions (FAQ)</h3>
+        <div class="faq-row">
+          <div class="faq-bx1">
+            <h4>General Questions</h4>
+            <div class="accordion-sec">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What is an Introducing Broker (IB)?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      An Introducing Broker is a firm or individual that
+                      solicits to introduce new clients to a broker. The IB does
+                      not accept money or other assets from customers to support
+                      their trading. IBs can act as a customer advocate between
+                      traders and a forex broker.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      How does an Introducing Broker differ from a forex broker?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      While both IBs and forex brokers are involved in the forex
+                      market, IBs do not execute trades or hold client funds.
+                      IBs introduce traders to a partnered forex broker who
+                      handles the actual trading and fund management.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Is your firm regulated?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, our firm is registered with the Commodity Futures
+                      Trading Commission (CFTC) and is a member of the National
+                      Futures Association(NFA). You can verify our registration
+                      status on the NFA website.
+                    </div>
+                  </div>
+                </div>
+                <h4>Services and Benefits</h4>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse1"
+                      aria-expanded="true"
+                      aria-controls="collapse1"
+                    >
+                      What services do you offer as an Introducing Broker?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse1"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading1"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      We offer a range of services including:
+                      <ul>
+                        <li>
+                          Broker recommendations tailored to your trading needs
+                        </li>
+                        <li>Cash back rebates</li>
+                        <li>Educational resources</li>
+                        <li>Personalized support</li>
+                        <li class="last">Assistance with account opening</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading2">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse2"
+                      aria-expanded="false"
+                      aria-controls="collapse2"
+                    >
+                      Why should I use an Introducing Broker instead of going
+                      directly to a forex broker?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading2"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Using an IB can provide several benefits:
+                      <ul>
+                        <li>
+                          Access to our expertise in selecting the right broker
+                          for your needs
+                        </li>
+                        <li>Cash back rebates from our selected Brokers</li>
+                        <li>
+                          Additional layer of support and personalized service
+                        </li>
+                        <li class="last">Educational resources</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading3">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse3"
+                      aria-expanded="false"
+                      aria-controls="collapse3"
+                    >
+                      Do I have to pay extra fees for using your services?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading3"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      No, our services are typically free to traders. We receive
+                      compensation from our partner brokers, which doesn't
+                      affect the trading conditions you receive.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading4">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse4"
+                      aria-expanded="false"
+                      aria-controls="collapse4"
+                    >
+                      What are the conditions and criteria to join the rebate
+                      program?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading4"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Rebates are paid through Zelle. To join the rebate program
+                      and receive a rebate you must be a current client with
+                      trading activity and have a bank account that supports
+                      receiving payments via Zelle. See terms for rebate
+                      payments in our terms of use.
+                    </div>
+                  </div>
+                </div>
+
+                <h4>Account Opening and Trading</h4>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading11">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse11"
+                      aria-expanded="true"
+                      aria-controls="collapse11"
+                    >
+                      How do I open a forex trading account through your firm?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse11"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading11"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      To open an account:
+                      <ul>
+                        <li>
+                          Browse our partner brokers and select one that suits
+                          your needs
+                        </li>
+                        <li>
+                          Click on the "Open Account" button for your chosen
+                          broker
+                        </li>
+                        <li>Fill out the application form with your details</li>
+                        <li>
+                          Submit the required documentation for verification
+                        </li>
+                        <li class="last">
+                          Once approved, fund your account and start trading
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading22">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse22"
+                      aria-expanded="false"
+                      aria-controls="collapse22"
+                    >
+                      What documents do I need to open an account?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse22"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading22"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Typically, you'll need:
+                      <ul>
+                        <li>
+                          Government-issued ID (passport or driver's license)
+                        </li>
+                        <li>
+                          Proof of residence (recent utility bill or bank
+                          statement)
+                        </li>
+                        <li class="last">
+                          Completed W-9 form (for US residents)
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading33">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse33"
+                      aria-expanded="false"
+                      aria-controls="collapse33"
+                    >
+                      Can I open an account if I'm new to forex trading?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse33"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading33"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, we welcome traders of all experience levels. We offer
+                      educational resources to help you get started and can
+                      recommend brokers suitable for beginners.
+                    </div>
+                  </div>
+                </div>
+                <h4>Regulatory and Legal</h4>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading111">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse111"
+                      aria-expanded="true"
+                      aria-controls="collapse111"
+                    >
+                      Are forex trades through your partnered brokers protected
+                      by the SIPC?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse111"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading111"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      No, forex trades are not protected by the Securities
+                      Investor Protection Corporation (SIPC). The SIPC only
+                      covers certain securities and does not extend to forex
+                      trading.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading222">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse222"
+                      aria-expanded="false"
+                      aria-controls="collapse222"
+                    >
+                      What is the minimum age to open a forex trading account?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse222"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading222"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      You must be at least 18 years old to open a forex trading
+                      account in the United States.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading333">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse333"
+                      aria-expanded="false"
+                      aria-controls="collapse333"
+                    >
+                      Are there any restrictions on US residents trading forex?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse333"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading333"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      While US residents can trade forex, there are some
+                      restrictions:
+                      <ul>
+                        <li>
+                          You can only trade with CFTC-registered Retail Foreign
+                          Exchange Dealers (RFEDs)
+                        </li>
+                        <li>
+                          Leverage is limited to 50:1 on major currency pairs
+                          and 20:1 on minor pairs
+                        </li>
+                        <li class="last">
+                          Off-exchange forex options are prohibited
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <h4>Technical Questions</h4>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1111">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse1111"
+                      aria-expanded="true"
+                      aria-controls="collapse1111"
+                    >
+                      What trading platforms do your partner brokers offer?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse1111"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading1111"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Our partner brokers offer a variety of platforms,
+                      including MetaTrader 4 and proprietary platforms. The
+                      specific options depend on the broker you choose.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading2222">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse2222"
+                      aria-expanded="false"
+                      aria-controls="collapse2222"
+                    >
+                      Can I use Expert Advisors (EAs) or algorithmic trading
+                      strategies?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse2222"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading2222"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, many of our partner brokers support the use of Expert
+                      Advisors and algorithmic trading. However, specific
+                      features and limitations may vary by broker.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading3333">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse3333"
+                      aria-expanded="false"
+                      aria-controls="collapse3333"
+                    >
+                      How can I protect my trading account from cyber threats?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse3333"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading3333"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      We recommend:
+                      <ul>
+                        <li>Using strong, unique passwords</li>
+                        <li>
+                          Enabling two-factor authentication when available
+                        </li>
+                        <li>Avoiding public Wi-Fi for trading</li>
+                        <li>
+                          Keeping your trading platform and operating system
+                          updated
+                        </li>
+                        <li class="last">
+                          Being cautious of phishing attempts
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            Remember, while we strive to provide accurate information, forex
+            trading carries significant risk. Always conduct your own research
+            and consider seeking advice from a qualified financial advisor
+            before making investment decisions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- faq -->
+
+    <!-- privacy-cont -->
+
+    <div class="discalimer">
+      <div class="container">
+        <div class="discalimer-row">
+          <h6>
+            KM Trading LLC (TradingForexUSA.com) is registered with the
+            Commodity Futures Trading Commission (CFTC) as an independent
+            introducing broker and is a member of the National Futures
+            Association (NFA ID 0561608).
+          </h6>
+          <p>
+            Risks and Limitations: Trading forex has large potential risks. High leverage can work against you
+            as well as for you. You must be aware of the risks of investing and
+            be willing to accept them in order to trade. Trading involves
+            substantial risk of loss and is not suitable for everyone. Do not
+            trade with money you cannot afford to lose. This website is neither
+            a solicitation nor an offer to buy or sell. No representation is
+            being made that any account will or is likely to achieve profits or
+            losses similar to those discussed on this website. Any opinions,
+            news, research, analysis, prices, or other information contained on
+            this website is provided as general market commentary and does not
+            constitute investment advice. Website owners and affiliates will not
+            accept liability for any loss or damage, including without
+            limitation to, any loss of profit, which may arise directly or
+            indirectly from the use of or reliance on such information. Please
+            remember that the past performance of any trading system or
+            methodology is not necessarily indicative of future results.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- discalimer -->
+
+    <div class="copy">
+      <div class="container">
+        <div class="copy-row">
+          <p>© 2025 - KM Trading LLC (dba TradingForexUSA.com)</p>
+          <ul>
+            <li><a href="terms.html"> Terms of Use</a></li>
+            <li>|</li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a
+                href="https://www.facebook.com/people/Trading-Forex-USA/61567384463085/"
+                target="_blank"
+                ><img src="images/icn1.png" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/tradingforexusa"
+                target="_blank"
+                ><img src="images/icn2.png" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/tradingforexusa"
+                target="_blank"
+                ><img src="images/icn3.png" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a href="https://x.com/TradingForexUSA" target="_blank"
+                ><img src="images/icn4.png" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@tradingforexusa" target="_blank"
+                ><img src="images/icn5.png" alt="" class="img-fluid"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- copy -->
+
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 id="modalTitle">Sign-Up for a TastyFX Account</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center mb-3">
+              <p id="modalContent">
+                Clicking the button below will open a new window on TastyFX's
+                web site to complete the account sign up process. If you have
+                any problems with the sign-up process, reach out to us using the
+                'Contact Us' form on the TradingForexUSA.com home page.
+              </p>
+            </div>
+
+            <form
+              class="leadForm"
+              data-thankyou="thankyou_tastyfx.html"
+              autocomplete="off"
+              id="tastyfxForm"
+              novalidate
+            >
+              <input
+                type="hidden"
+                id="thankyouPage"
+                value="thankyou_tastyfx.html"
+              />
+
+              <div class="mb-3">
+                <label class="form-label">First Name:</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  placeholder="First Name"
+                  class="form-control firstname"
+                />
+                <div class="text-danger firstnameError"></div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Last Name:</label>
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Last Name"
+                  class="form-control lastname"
+                />
+                <div class="text-danger lastnameError"></div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="form-control email"
+                />
+                <div class="text-danger emailError"></div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mobile Phone:</label>
+                <input
+                  type="tel"
+                  name="mobile"
+                  placeholder="Mobile Phone"
+                  class="form-control phone"
+                />
+                <div class="text-danger phoneError"></div>
+              </div>
+              <div class="mb-3" id="msgBox" style="display: none">
+                <label class="form-label">Message:</label>
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  value=""
+                  class="form-control message"
+                  maxlength="799"
+                  spellcheck="true"
+                ></textarea>
+                <div class="text-danger messageError"></div>
+              </div>
+              <input
+                type="hidden"
+                name="leadsource"
+                value=""
+                class="d-none"
+                id="leadSource"
+              />
+              <button
+                type="submit"
+                name="submit"
+                class="btn btn-primary w-100"
+                id="submitBtn"
+              >
+                Signup
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+    <script>
+      const toggleMenuClicked = () => {
+        const body = document.body;
+        const openIcon = document.getElementById("open-icon");
+        const closeIcon = document.getElementById("close-icon");
+
+        body.classList.toggle("open");
+
+        if (body.classList.contains("open")) {
+          openIcon.style.display = "none";
+          closeIcon.style.display = "flex";
+        } else {
+          openIcon.style.display = "flex";
+          closeIcon.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="js/app.js"></script>
+
+  <!-- Sales Nexus Script -->
+  <script
+    type="text/javascript"
+    src="https://logon.salesnexus.com/leadcapturescripts/FT152883_combined.js"
+  ></script>
+  <script src="./js/form.js"></script>
+
+  <!--OLD-->
+  <!--
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let thankyouPage = "thankyou_tastyfx.html"; // Default fallback
+
+      // Update modal content and thank-you page when a button is clicked
+      document.querySelectorAll("[data-bs-toggle='modal']").forEach(button => {
+          button.addEventListener("click", function () {
+              let title = this.getAttribute("data-title") || "Sign-Up for a TastyFX Account";
+              let content = this.getAttribute("data-content") || "Click below to complete the sign-up process.";
+              let btnLabel = this.getAttribute("data-btnlabel") || "Signup";
+              thankyouPage = this.getAttribute("data-thankyou") || "thankyou_tastyfx.html";
+
+
+              document.getElementById("modalTitle").innerText = title;
+              document.getElementById("modalContent").innerText = content;
+              document.getElementById("submitBtn").innerText = btnLabel;
+              document.getElementById("thankyouPage").value = thankyouPage;
+              document.getElementById("leadSource").value = this.getAttribute("data-leadsource") || "Unknown";
+
+              let msgBox = document.getElementById('msgBox');
+
+              msgBox.style.display = (btnLabel === 'Contact Us') ? "block" : "none";
+
+          });
+      });
+
+      // Form submission handling
+      document.getElementById("tastyfxForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default submission
+
+          let isValid = true;
+
+          // Clear previous errors
+          document.querySelector(".firstnameError").innerText = "";
+          document.querySelector(".lastnameError").innerText = "";
+          document.querySelector(".emailError").innerText = "";
+          document.querySelector(".phoneError").innerText = "";
+          document.querySelector(".messageError").innerText = "";
+
+          // Get input values
+          let firstname = document.querySelector(".firstname").value.trim();
+          let lastname = document.querySelector(".lastname").value.trim();
+          let email = document.querySelector(".email").value.trim();
+          let phone = document.querySelector(".phone").value.trim();
+          let message = document.querySelector(".message").value.trim();
+
+          // Simple validation
+          if (firstname === "") {
+              document.querySelector(".firstnameError").innerText = "First name is required.";
+              isValid = false;
+          }
+          if (lastname === "") {
+              document.querySelector(".lastnameError").innerText = "Last name is required.";
+              isValid = false;
+          }
+          if (!email.includes("@") || !email.includes(".")) {
+              document.querySelector(".emailError").innerText = "Enter a valid email.";
+              isValid = false;
+          }
+          if (!/^\(?([1-9]\d{2})\)?[-.\s]?\d{3}[-.\s]?\d{4}$/.test(phone)) {
+                document.querySelector(".phoneError").innerText = "Enter a valid US phone number (e.g., 123-456-7890). Area codes cannot start with zero.";
+                isValid = false;
+          }
+          if (message.length > 799) {
+              document.querySelector(".messageError").innerText = "Your message exceeds the 799-character limit. Please shorten it before submitting.";
+              isValid = false;
+          }
+
+          // If valid, redirect to the specific thank-you page
+          if (isValid) {
+              //alert("Form submitted successfully!");
+              setTimeout(()=>{
+                  window.location.href = document.getElementById("thankyouPage").value;
+              }, 1000)
+          }
+      });
+  });
+</script>
+--></html>

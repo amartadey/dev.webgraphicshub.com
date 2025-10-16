@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MQM8N7W8");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Unlock exclusive cash back rebates on your forex trades with our trusted US-based Introducing Broker. Maximize your profits with top-tier broker partnerships, personalized service, and industry-leading rewards. Start earning rebates today and enhance your trading experience!"
+    />
+    <title>TradingForexUSA.com</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"
+      integrity="sha512-gOQQLjHRpD3/SEOtalVq50iDn4opLVup2TF8c4QPI3/NmUPNZOk2FG0ihi8oCU/qYEsw4P6nuEZT2lAG0UNYaw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta name='impact-site-verification' value='4d59109c-858c-4876-8b71-1d1af3c977e3'>
+  </head>
+
+  <body class="dark-mode">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MQM8N7W8"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="header">
+      <div class="container">
+        <div class="header-row">
+          <a href="index.html" class="logo"
+            ><img src="images/logo.webp" class="img-fluid lgo" alt=""
+          /></a>
+          <div class="header-menu">
+            <ul class="one">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li>
+                <button
+                  class="app-button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2"
+                  data-thankyou="thankyou_contact.html"
+                  data-title="Contact Us"
+                  data-content="TradingForexUSA.com"
+                  data-btnlabel="Contact Us"
+                  data-leadsource="Contact Form"
+                >
+                  Contact Us
+                </button>
+              </li>
+            </ul>
+            <ul class="last">
+              <li>
+                <a href="#" class="get" style="display: none">Get started</a>
+              </li>
+              <li>
+                <a href="broker.html" class="start">Start your journey</a>
+              </li>
+              <li class="last">
+                <button class="button" onclick="myFunction()">
+                  <i class="bx bx-sun sun"></i> <i class="bx bxs-moon moon"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+
+    <div class="header mob-header">
+      <div class="container">
+        <div class="header-row">
+          <a href="index.html" class="logo"
+            ><img src="images/logo.webp" class="img-fluid lgo" alt=""
+          /></a>
+          <div
+            class="navigation-menu__overlay"
+            onclick="toggleMenuClicked()"
+          ></div>
+
+          <div class="header-menu">
+            <button
+              type="button"
+              class="hamburger-menu"
+              onclick="toggleMenuClicked()"
+            >
+              <span class="material-icons" id="open-icon">menu</span>
+              <span class="material-icons" id="close-icon">close</span>
+            </button>
+            <section class="navigation-menu__labels">
+              <ul class="one">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li>
+                  <button
+                    class="app-button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                    data-thankyou="thankyou_contact.html"
+                    data-title="Contact Us"
+                    data-content="TradingForexUSA.com"
+                    data-btnlabel="Contact Us"
+                    data-leadsource="Contact Form"
+                  >
+                    Contact Us
+                  </button>
+                </li>
+                <li>
+                  <a href="broker.html" class="start">Start your journey</a>
+                </li>
+              </ul>
+            </section>
+            <ul class="last">
+              <li class="last">
+                <button class="button" onclick="myFunction()">
+                  <i class="bx bx-sun sun"></i> <i class="bx bxs-moon moon"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mob-header -->
+
+    <div class="banner">
+      <img src="images/graph.webp" class="img-fluid graph-img" alt="" />
+      <div class="container">
+        <div class="banner-text">
+          <h1>Welcome to<br /><span>TradingForexUSA.com</span></h1>
+          <div class="banner-para">
+            <p>Interested in trading Forex with a US regulated FX Broker?</p>
+          </div>
+        </div>
+      </div>
+      <div id="hero">
+        <img src="images/stock.webp" class="img-fluid hero-img" alt="" />
+      </div>
+    </div>
+    <!-- banner -->
+
+    <div class="feature">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-row" id="features">
+          <a href="education.html" class="feature1">
+            <div class="feature-text">
+              <img src="images/education2.webp" class="img-fluid feat1" alt="" />
+              <div class="feature-text-in">
+                <h3>Education Center</h3>
+              </div>
+            </div>
+          </a>
+          <a href="blog.html" class="feature1">
+            <div class="feature-text">
+              <img src="images/blog.webp" class="img-fluid feat1" alt="" />
+              <div class="feature-text-in">
+                <h3>Blog</h3>
+              </div>
+            </div>
+          </a>
+          <!-- <div class="feature2 feature3">
+                    <div class="feature-text">
+                        <a href="#"><img src="images/education.webp" class="img-fluid feat1" alt=""></a>
+                        <a href="#" class="edu">Education<br>Center <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div> 
+                <div class="feature1 feature2">
+                    <div class="feature-text">
+                        <a href="#"><img src="images/blog.webp" class="img-fluid feat1" alt=""></a>
+                        <a class="edu">Blog</a>
+                        <a href="broker.html" class="trade-see">Our Recent Blogs</a>
+                    </div>
+                </div>-->
+        </div>
+      </div>
+    </div>
+    <!-- feature -->
+
+    <div class="intro">
+      <div class="intro-flex">
+        <div class="intro-row">
+          <img src="images/hero2.webp" class="img-fluid intro-man" alt="" />
+        </div>
+      </div>
+      <div class="intro-bx">
+        <div class="intro-bx-text">
+          <h2>Learn and Trade</h2>
+          <p>
+            Trading Forex USA is a US forex introducing broker that provides<br />
+            Forex education, and tools.
+          </p>
+          <a href="broker.html" class="comp">Compare US Regulated Brokers</a>
+        </div>
+      </div>
+    </div>
+    <!-- intro -->
+
+    <div class="discalimer">
+      <div class="container">
+        <div class="discalimer-row">
+          <h6>
+            KM Trading LLC (TradingForexUSA.com) is registered with the
+            Commodity Futures Trading Commission (CFTC) as an independent
+            introducing broker and is a member of the National Futures
+            Association (NFA ID 0561608).
+          </h6>
+          <p>
+            Risks and Limitations: Trading forex has large potential risks. High leverage can work against you
+            as well as for you. You must be aware of the risks of investing and
+            be willing to accept them in order to trade. Trading involves
+            substantial risk of loss and is not suitable for everyone. Do not
+            trade with money you cannot afford to lose. This website is neither
+            a solicitation nor an offer to buy or sell. No representation is
+            being made that any account will or is likely to achieve profits or
+            losses similar to those discussed on this website. Any opinions,
+            news, research, analysis, prices, or other information contained on
+            this website is provided as general market commentary and does not
+            constitute investment advice. Website owners and affiliates will not
+            accept liability for any loss or damage, including without
+            limitation to, any loss of profit, which may arise directly or
+            indirectly from the use of or reliance on such information. Please
+            remember that the past performance of any trading system or
+            methodology is not necessarily indicative of future results.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- discalimer -->
+
+    <div class="copy">
+      <div class="container">
+        <div class="copy-row">
+          <p>Â© 2024 - KM Trading LLC (dba TradingForexUSA.com)</p>
+          <ul>
+            <li><a href="terms.html"> Terms of Use</a></li>
+            <li>|</li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a
+                href="https://www.facebook.com/people/Trading-Forex-USA/61567384463085/"
+                target="_blank"
+                ><img src="images/icn1.webp" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/tradingforexusa"
+                target="_blank"
+                ><img src="images/icn2.webp" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/tradingforexusa"
+                target="_blank"
+                ><img src="images/icn3.webp" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a href="https://x.com/TradingForexUSA" target="_blank"
+                ><img src="images/icn4.webp" alt="" class="img-fluid"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@tradingforexusa" target="_blank"
+                ><img src="images/icn5.webp" alt="" class="img-fluid"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- copy -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 id="modalTitle">Sign-Up for a TastyFX Account</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center mb-3">
+              <p id="modalContent">
+                Clicking the button below will open a new window on TastyFX's
+                web site to complete the account sign up process. If you have
+                any problems with the sign-up process, reach out to us using the
+                'Contact Us' form on the TradingForexUSA.com home page.
+              </p>
+            </div>
+
+            <form
+              class="leadForm"
+              data-thankyou="thankyou_tastyfx.html"
+              autocomplete="off"
+              id="tastyfxForm"
+              novalidate
+            >
+              <input
+                type="hidden"
+                id="thankyouPage"
+                value="thankyou_tastyfx.html"
+              />
+
+              <div class="mb-3">
+                <label class="form-label">First Name:</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  placeholder="First Name"
+                  class="form-control firstname"
+                />
+                <div class="text-danger firstnameError"></div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Last Name:</label>
+                <input
+                  type="text"
+                  name="lastname"
+                  placeholder="Last Name"
+                  class="form-control lastname"
+                />
+                <div class="text-danger lastnameError"></div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  class="form-control email"
+                />
+                <div class="text-danger emailError"></div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mobile Phone:</label>
+                <input
+                  type="tel"
+                  name="mobile"
+                  placeholder="Mobile Phone"
+                  class="form-control phone"
+                />
+                <div class="text-danger phoneError"></div>
+              </div>
+              <div class="mb-3" id="msgBox" style="display: none">
+                <label class="form-label">Message:</label>
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  class="form-control message"
+                  maxlength="799"
+                  spellcheck="true"
+                ></textarea>
+                <div class="text-danger messageError"></div>
+              </div>
+              <input
+                type="hidden"
+                name="leadsource"
+                value=""
+                class="d-none"
+                id="leadSource"
+              />
+              <button
+                type="submit"
+                name="submit"
+                class="btn btn-primary w-100"
+                id="submitBtn"
+              >
+                Signup
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      // var referenceForm = document.getElementById("open-form");
+      // function formSubmit() {
+      //     var  xmlhttp;
+      //     xmlhttp = new XMLHttpRequest();
+      //     xmlhttp.open("POST", "contact-form-handler.php", true);
+      //     xmlhttp.onreadystatechange = function() {
+      //        if (this.readyState !== "complete"){
+      //           // console.log(this.responseText);
+      //        }
+      //         if (this.readyState === 4 && this.status === 200)
+      //         {
+      //             Swal.close();
+      //            Swal.fire({
+      //               icon: "success",
+      //               title: "Form Submitted... Thanks",
+      //               showConfirmButton: true,
+      //               // timer: 3000
+      //             });
+      //         }
+      //     }
+      //     var formData = new FormData(referenceForm);
+      //     xmlhttp.send(formData);
+
+      // }
+
+      // referenceForm.addEventListener("submit", e=>{
+      //     e.preventDefault()
+      //     Swal.fire({
+      //         title: 'Sending Data....',
+      //         allowOutsideClick: false,
+      //         showConfirmButton: false,
+      //         didOpen: () => {
+      //             Swal.showLoading();
+      //         },
+      //     });
+
+      //     formSubmit()
+      // })
+    </script>
+    <style>
+      [type="number"]::-webkit-inner-spin-button,
+      [type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      [type="number"] {
+        -moz-appearance: textfield;
+      }
+    </style>
+
+    <script>
+      $(document).ready(function () {
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+
+    <!-- Menu Toggle -->
+    <script>
+      const toggleMenuClicked = () => {
+        const body = document.body;
+        const openIcon = document.getElementById("open-icon");
+        const closeIcon = document.getElementById("close-icon");
+
+        body.classList.toggle("open");
+
+        if (body.classList.contains("open")) {
+          openIcon.style.display = "none";
+          closeIcon.style.display = "flex";
+        } else {
+          openIcon.style.display = "flex";
+          closeIcon.style.display = "none";
+        }
+      };
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/app.js"></script>
+
+    <!-- Sales Nexus Script -->
+    <script
+      type="text/javascript"
+      src="https://logon.salesnexus.com/leadcapturescripts/FT152883_combined.js"
+    ></script>
+    <script src="./js/form.js"></script>
+
+    <!--OLD-->
+    <!--
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let thankyouPage = "thankyou_tastyfx.html"; // Default fallback
+
+        // Get the button element
+        let modalButton = document.querySelector("[data-bs-toggle='modal']");
+
+        if (modalButton) {
+          modalButton.addEventListener("click", function () {
+            let title =
+              this.getAttribute("data-title") ||
+              "Sign-Up for a TastyFX Account";
+            let content =
+              this.getAttribute("data-content") ||
+              "Click below to complete the sign-up process.";
+            let btnLabel = this.getAttribute("data-btnlabel") || "Signup";
+            thankyouPage =
+              this.getAttribute("data-thankyou") || "thankyou_tastyfx.html";
+
+            let leadSourceValue = this.getAttribute("data-leadsource");
+
+            document.getElementById("modalTitle").innerText = title;
+            document.getElementById("modalContent").innerText = content;
+            document.getElementById("submitBtn").innerText = btnLabel;
+            document.getElementById("thankyouPage").value = thankyouPage;
+            document.getElementById("leadSource").value = leadSourceValue;
+
+            let msgBox = document.getElementById("msgBox");
+            msgBox.style.display = btnLabel === "Contact Us" ? "block" : "none";
+          });
+        }
+
+        // Form submission handling
+        document
+          .getElementById("tastyfxForm")
+          .addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent default submission
+
+            let isValid = true;
+
+            // Clear previous errors
+            document.querySelector(".firstnameError").innerText = "";
+            document.querySelector(".lastnameError").innerText = "";
+            document.querySelector(".emailError").innerText = "";
+            document.querySelector(".phoneError").innerText = "";
+            document.querySelector(".messageError").innerText = "";
+
+            // Get input values
+            let firstname = document.querySelector(".firstname").value.trim();
+            let lastname = document.querySelector(".lastname").value.trim();
+            let email = document.querySelector(".email").value.trim();
+            let phone = document.querySelector(".phone").value.trim();
+            let message = document.querySelector(".message").value.trim();
+
+            // Simple validation
+            if (firstname === "") {
+              document.querySelector(".firstnameError").innerText =
+                "First name is required.";
+              isValid = false;
+            }
+            if (lastname === "") {
+              document.querySelector(".lastnameError").innerText =
+                "Last name is required.";
+              isValid = false;
+            }
+            if (!email.includes("@") || !email.includes(".")) {
+              document.querySelector(".emailError").innerText =
+                "Enter a valid email.";
+              isValid = false;
+            }
+            if (!/^\(?([1-9]\d{2})\)?[-.\s]?\d{3}[-.\s]?\d{4}$/.test(phone)) {
+              document.querySelector(".phoneError").innerText =
+                "Enter a valid US phone number (e.g., 123-456-7890). Area codes cannot start with zero.";
+              isValid = false;
+            }
+            if (message.length > 799) {
+              document.querySelector(".messageError").innerText =
+                "Your message exceeds the 799-character limit. Please shorten it before submitting.";
+              isValid = false;
+            }
+
+            // If valid, redirect to the specific thank-you page
+            if (isValid) {
+              //alert("Form submitted successfully!");
+              setTimeout(() => {
+                window.location.href =
+                  document.getElementById("thankyouPage").value;
+              }, 1000);
+            }
+          });
+      });
+    </script>
+    -->
+  </body>
+</html>
