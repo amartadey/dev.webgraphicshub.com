@@ -73,6 +73,15 @@ ul {
 }
 
 
+.dark-mode .dRrCSL svg {
+    fill: rgb(255 255 255);
+}
+
+.dark-mode .ButtonBase__ButtonContainer-sc-2b567eb2-3.daLTkD {
+    color: rgb(189, 189, 189) !important;
+    background-color: rgb(212 212 212 / 29%) !important;
+}
+
 
 
 /** banner **/
